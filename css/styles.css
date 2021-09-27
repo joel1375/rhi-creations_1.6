@@ -1,0 +1,269 @@
+/* CONTAINERS */
+.topContainer, .bottomContainer {
+  background-color: #8CA1A5;
+}
+
+.instagram-media {
+  width: 312px;
+}
+
+.raffleContainer {
+  padding: 20px 15% 20px;
+  text-align: center;
+  background-color: #FFADAD;
+  position: relative;
+  top: -75px;
+}
+
+.iconss {
+  color: #fff;
+}
+
+.textalignright {
+  text-align: right;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+.normalPadding {
+  padding:0 10% 10%;
+}
+
+.normalPaddingB {
+  padding:1% 10% 3%;
+}
+
+.normalPaddingT {
+  padding: 0 10%;
+}
+
+.homeBackground {
+  width: 100%;
+  opacity: 45%;
+}
+
+.homelogo {
+  opacity: 100%;
+}
+.logoImage {
+  width: 60%;
+}
+
+.brandLogo {
+  height: 110px;
+}
+
+.backgroundAll {
+position: absolute;
+margin-top: 40px;
+z-index: +1;
+}
+
+.btn-outline-dark {
+  color: #fff;
+  border-color: #C06C84;
+  background-color: #C06C84;
+}
+
+.btn-outline-dark:hover {
+  background-color: #fff;
+  color: black;
+}
+
+h1 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2.letterhead {
+  padding: 0 25% 0;
+  line-height: 1.1;
+  font-size: 1.2rem;
+}
+
+.fa-home:hover {
+  color: #C06C84;
+}
+
+.fa-product-hunt:hover {
+  color: #C06C84;
+}
+
+.fa-tags:hover {
+  color: #C06C84;
+}
+
+a.nav-link:hover {
+  color: #C06C84;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textCenter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+h3 {
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-family: "Open Sans Condensed";
+  color: #C06C84;
+}
+
+h5 {
+  padding-top: 4,0px;
+  font-family: "Open Sans Condensed";
+  color: #C06C84;
+  font-size: 2rem;
+}
+
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: black;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textright {
+  text-align: right;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+/* MOBILE ONLY DISPLAY --------------------------------------------------*/
+@media (max-width: 990px) {
+  .topnav {
+    display: block;
+    background-color: black;
+  }
+  .topContainer {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+  .mobileOnly {
+    display: block;
+  }
+
+  .homelogo {
+    width: 20%;
+  }
+
+  .raffleContainer {
+    position: static;
+  }
+  .es-header {
+    display: none;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+}
+
+/* DESKTOP ONLY DISPLAY */
+@media (min-width: 990px) {
+  .topnav {
+    display: none;
+  }
+
+  .topContainer {
+    display: block;
+  }
+
+  .desktopOnly {
+    display: block;
+  }
+
+  .mobileOnly {
+    display: none;
+  }
+
+  .homelogo {
+    width: 5%;
+  }
+
+}
+
+@media (min-width: 1250px) {
+  .raffleContainer {
+    position: relative;
+    top: -150px;
+  }
+
+  @media (min-width: 1500px) {
+    .raffleContainer {
+      position: relative;
+      top: -250px;
+    }
+
+    @media (min-width: 1750px) {
+      .raffleContainer {
+        position: relative;
+        top: -350px;
+      }
+
+
+}
